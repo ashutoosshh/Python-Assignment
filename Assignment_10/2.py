@@ -2,13 +2,12 @@ def main():
     print("enter no")
     no=int(input())
     sum=0
-    print("table is ")
-    for i in range(1 ,11):
 
-        ans =no*i
+    for i in range(no+1):
 
-        print(ans)
+        sum =sum+i
 
+    print("sum is ",sum)
 
 
 
